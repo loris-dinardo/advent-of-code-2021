@@ -5,7 +5,7 @@ export class GamaRate {
                 private _onesInDataset: Array<number>) {
     }
 
-    public calcGamaRateInDecimal(): number {
+    public calcInDecimal(): number {
         const numberOfBitsInDataset = this.numberOfBitsInDataset();
         const result: Array<number> = new Array<number>(numberOfBitsInDataset).fill(0);
         for (let i = 0; i < numberOfBitsInDataset; i++) {
