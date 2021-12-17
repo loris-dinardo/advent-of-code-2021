@@ -24,5 +24,3 @@ describe("Advent of code 2021 - Day 3: Binary Diagnostic", () => {
         });
     });
 });
-
-export {}
